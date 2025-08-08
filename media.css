@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(208, 242, 242);
+    font-size:16px;
+
+}
+@media(max-width:768px){
+    body{
+        font-size:14px;
+    }
+    .container{
+        flex-direction:column;
+        padding:10px;
+    }
+    nav ul{
+        display:block;
+    }
+}
